@@ -89,32 +89,32 @@ $ php artisan vendor:publish --force
 ## check file env (connect to database
 
 
-##command line use in laravel 
+## command line use in laravel 
 1)create project:
 composer create-project laravel/laravel WebsiteTask --prefer-dist
 
 
-2) create connection with mysql(php my admin) 
+## create connection with mysql(php my admin) 
   Using the env file
   
-3)create migration and model packge
+## create migration and model packge
 $php artisan make:model Models/Post -m
 
-4)Link tables relationships
+## Link tables relationships
 
-5)upload tables in database(php my admin)
+## upload tables in database(php my admin)
 $php artisan migrate
 
 
-6)create controller in packge 
+## create controller in packge 
 $ php artisan make:controller pagescontroller/pagescontroller/Homecontroller
 
-7)add design in resources and Split files (layouts and packge) Take the design files, javascript and bootstrap files to a file public
+## add design in resources and Split files (layouts and packge) Take the design files, javascript and bootstrap files to a file public
 
-8)create request with packge controller
+## create request with packge controller
 $ php artisan make:request pagescontroller/CreateRequest
 
-9)require auth in laravel
+## require auth in laravel
  $ composer require laravel/ui
  
 
